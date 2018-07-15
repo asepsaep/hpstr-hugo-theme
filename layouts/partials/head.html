@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->` | safeHTML }}
 <head>
 <meta charset="utf-8">
-<title>{{ if eq .IsHome false }}{{ .Title }} &#8211; {{ end }}{{ .Site.Title }}</title>
+<title>{{ if eq .IsHome false }}{{ .Title }} &#8211; {{ end }}{{ .Site.Data.information.WindowTitle }}</title>
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 {{ if .IsHome }}
     {{ $.Scratch.Set "Params" .Site.Params }}
