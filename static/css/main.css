@@ -3849,7 +3849,7 @@ body {
   display: table;
   margin-top: 0;
   width: 100%;
-  height: 400px;
+  height: 200px;
   overflow: hidden; }
   .feature .header-title .header-title-wrap {
     display: table-cell;
@@ -3880,7 +3880,7 @@ body {
   left: -50%;
   width: 200%;
   height: 200%;
-  min-height: 400px;
+  min-height: 200px;
   overflow: hidden; }
   .entry-image:after {
     content: '';
@@ -3898,14 +3898,14 @@ body {
     bottom: 0;
     margin: auto;
     min-width: 50%;
-    min-height: 400px; }
+    min-height: 200px; }
 
 #post-index.feature .header-title {
-  height: 400px; }
+  height: 200px; }
 #post-index .entry-image {
-  min-height: 400px; }
+  min-height: 200px; }
   #post-index .entry-image img {
-    min-height: 400px; }
+    min-height: 200px; }
 
 .image-credit {
   position: absolute;
